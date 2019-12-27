@@ -1,0 +1,29 @@
+{
+  "name": "pomf-ts",
+  "version": "1.0.0",
+  "description": "Pomf with ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "warkio",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "pg": "^7.15.1",
+    "pg-promise": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/mkdirp": "^0.5.2",
+    "@types/morgan": "^1.7.37",
+    "@types/multer": "^1.3.10"
+  }
+}
