@@ -5,6 +5,7 @@ Typescript POMF clone
 - Clone and config
 ```sh
 git clone https://wark.io/pomf-ts && cd pomf-ts
+npm install
 cp config/development.example.ts config/development.ts
 cp config/development.example.ts config/production.ts
 tsc
