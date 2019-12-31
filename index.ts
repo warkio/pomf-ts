@@ -12,8 +12,9 @@ import errorMiddleware from './middlewares/error.middleware';
 import configValues from './middlewares/env.middleware';
 import userRequestInfo from './middlewares/user_info.middleware';
 import HttpException from './exceptions/HttpException';
+import config = require('./config');
 
-const server = new Server();
+const server = new Server(config.http.port);
 
 // Env param
 server.app.use(configValues);

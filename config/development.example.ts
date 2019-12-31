@@ -1,4 +1,7 @@
 export = {
+    http: {
+        port: 3000
+    },
     postgres: {
         dbConfig: {
             host: 'localhost',
